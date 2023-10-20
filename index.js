@@ -6,9 +6,10 @@ console.log("********************************")
 
 //Entradas
 
-let name = "Felipao"
+let name = "Evan"
 
-let age = 13
+let age = 30
+
 
 // Classe
 
@@ -18,7 +19,7 @@ class hero{
         this.atack = atack
     }
 
-    tostring(){
+    toatack(){
         console.log( `O ${this.type} atacou usando ${this.atack}`)
     }
 }
@@ -36,7 +37,7 @@ let ninja = new hero("ninja", "shuriken")
 //Saida
 
 
-warrior.tostring()
-mage.tostring()
-monk.tostring()
-ninja.tostring()
+warrior.toatack()
+mage.toatack()
+monk.toatack()
+ninja.toatack()
